@@ -1,5 +1,5 @@
 import unittest
-from kc2spicedb.transformer import transform_keycloak_to_spicedb
+from k2spicedb.transformer import transform_keycloak_to_spicedb
 
 class TestTransformer(unittest.TestCase):
 

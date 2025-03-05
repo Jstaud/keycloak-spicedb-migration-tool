@@ -10,7 +10,7 @@ class TestCLI(unittest.TestCase):
 
     def test_cli_entry_point(self):
         result = subprocess.run(
-            ["python3", "kc2spicedb/cli.py", "--realm-export", self.realm_export_path, "--out", self.output_path],
+            ["python3", "k2spicedb/cli.py", "--realm-export", self.realm_export_path, "--out", self.output_path],
             capture_output=True,
             text=True
         )
@@ -19,7 +19,7 @@ class TestCLI(unittest.TestCase):
 
     def test_cli_verbose_logging(self):
         result = subprocess.run(
-            ["python3", "kc2spicedb/cli.py", "--realm-export", self.realm_export_path, "--out", self.output_path, "-v"],
+            ["python3", "k2spicedb/cli.py", "--realm-export", self.realm_export_path, "--out", self.output_path, "-v"],
             capture_output=True,
             text=True
         )

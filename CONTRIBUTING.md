@@ -1,14 +1,14 @@
-# Contributing to kc2spicedb
+# Contributing to k2spicedb
 
-Thank you for your interest in contributing to kc2spicedb! We welcome contributions from the community and are grateful for your support.
+Thank you for your interest in contributing to k2spicedb! We welcome contributions from the community and are grateful for your support.
 
 ## How to Contribute
 
-1. **Fork the Repository**: Start by forking the kc2spicedb repository to your GitHub account.
+1. **Fork the Repository**: Start by forking the k2spicedb repository to your GitHub account.
 
 2. **Clone the Repository**: Clone the forked repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/kc2spicedb.git
+   git clone https://github.com/your-username/k2spicedb.git
    ```
 
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
@@ -51,6 +51,6 @@ If your contribution includes changes to the functionality, please update the re
 
 ## License
 
-By contributing to kc2spicedb, you agree that your contributions will be licensed under the MIT License.
+By contributing to k2spicedb, you agree that your contributions will be licensed under the MIT License.
 
-Thank you for contributing to kc2spicedb!
+Thank you for contributing to k2spicedb!

@@ -1,10 +1,10 @@
 import argparse
-from kc2spicedb.parser import parse_keycloak_export
-from kc2spicedb.transformer import transform_keycloak_to_spicedb
-from kc2spicedb.prompt_handler import handle_missing_info
-from kc2spicedb.schema_generator import generate_spicedb_schema
-from kc2spicedb.output_writer import write_schema_to_file
-from kc2spicedb.logging_config import configure_logging
+from k2spicedb.parser import parse_keycloak_export
+from k2spicedb.transformer import transform_keycloak_to_spicedb
+from k2spicedb.prompt_handler import handle_missing_info
+from k2spicedb.schema_generator import generate_spicedb_schema
+from k2spicedb.output_writer import write_schema_to_file
+from k2spicedb.logging_config import configure_logging
 
 def main():
     configure_logging()

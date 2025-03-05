@@ -23,12 +23,12 @@ pip install -r requirements.txt
 To use the CLI tool, run the following command:
 
 ```bash
-python -m kc2spicedb.cli --realm-export <path_to_keycloak_export> --out <path_to_output_schema> [-v]
+python -m k2spicedb.cli --realm-export <path_to_keycloak_export> --out <path_to_output_schema> [-v]
 ```
 
 ### Example
 ```bash
-python -m kc2spicedb.cli --realm-export examples/example_keycloak_export.json --out examples/example_spicedb_schema.zed -v
+python -m k2spicedb.cli --realm-export examples/example_keycloak_export.json --out examples/example_spicedb_schema.zed -v
 ```
 
 ## Contributing

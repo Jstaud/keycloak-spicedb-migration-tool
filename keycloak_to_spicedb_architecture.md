@@ -41,7 +41,7 @@ graph TD;
 ## CLI User Experience
 The CLI tool follows a simple command structure:
 ```bash
-$ kc2spicedb migrate --realm-export realm.json --out schema.zed -v
+$ k2spicedb migrate --realm-export realm.json --out schema.zed -v
 ```
 - If additional input is required, the tool will prompt the user interactively.  
 - Logs will be output to stdout, with warnings and errors clearly indicated.  

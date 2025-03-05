@@ -7,8 +7,11 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+# Install Poetry
+RUN pip install --no-cache-dir poetry
+
+# Install dependencies using Poetry
+RUN poetry install --no-dev
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
@@ -16,5 +19,5 @@ EXPOSE 80
 # Define environment variable
 ENV NAME World
 
-# Run kc2spicedb when the container launches
-CMD ["kc2spicedb"]
+# Run k2spicedb when the container launches
+CMD ["poetry", "run", "k2spicedb"]

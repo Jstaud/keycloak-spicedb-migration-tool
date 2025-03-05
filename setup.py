@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="kc2spicedb",
+    name="k2spicedb",
     version="0.1.0",
     description="A tool to migrate Keycloak realms to SpiceDB schemas",
     author="James Staud",
@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "kc2spicedb=kc2spicedb.cli:main"
+            "k2spicedb=k2spicedb.cli:main"
         ]
     },
     classifiers=[

@@ -1,5 +1,5 @@
 import unittest
-from kc2spicedb.parser import read_keycloak_export
+from k2spicedb.parser import read_keycloak_export
 
 class TestKeycloakExportParser(unittest.TestCase):
 
