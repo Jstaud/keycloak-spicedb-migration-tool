@@ -1,5 +1,5 @@
 # Use the official Python image from the Docker Hub
-FROM python:3.8-slim
+FROM python:3.10-slim
 
 # Set the working directory in the container
 WORKDIR /app
@@ -8,10 +8,13 @@ WORKDIR /app
 COPY . /app
 
 # Install Poetry
-RUN pip install --no-cache-dir poetry
+RUN pip install --no-cache-dir --upgrade poetry
 
 # Install dependencies using Poetry
-RUN poetry install --no-dev
+RUN poetry install --no-root
+
+# Run tests
+RUN poetry run pytest
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
