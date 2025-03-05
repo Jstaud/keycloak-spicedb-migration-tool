@@ -20,7 +20,7 @@ RUN poetry run pytest
 EXPOSE 80
 
 # Define environment variable
-ENV NAME World
+ENV NAME=World
 
 # Run k2spicedb when the container launches
 CMD ["poetry", "run", "k2spicedb"]

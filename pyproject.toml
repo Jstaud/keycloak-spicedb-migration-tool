@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A tool to migrate Keycloak realms to SpiceDB schemas"
 authors = ["James Staud <james@example.com>"]
 license = "MIT"
+packages = [{ include = "k2spicedb", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
